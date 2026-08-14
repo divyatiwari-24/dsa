@@ -1,11 +1,10 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int secondLargest(vector<int> arr) {
-    int largest = INT_MIN;
+int secondLargest(int arr[], int n){
+    int largest = arr[0];
     int secondLargest = INT_MIN;
-
-    for(int i = 0;i<arr.size();i++){
+    for (int i = 1; i<n; i ++){
         if(arr[i] > largest){
             secondLargest = largest;
             largest = arr[i];
