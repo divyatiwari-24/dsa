@@ -8,6 +8,6 @@ int largestElement(vector<int> arr) {
         if(arr[i] > largest) {
             largest = arr[i];
         }
-    }
+    }//returning the compared using simple comparsion 
     return largest;
 }
