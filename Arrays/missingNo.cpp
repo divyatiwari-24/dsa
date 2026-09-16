@@ -9,7 +9,7 @@ public:
 
         // XOR all the array elements and numbers from 1 to N-1
         for (int i = 0; i < N - 1; i++) {
-            xor2 = xor2 ^ a[i];      // XOR of array elements
+            xor2 = xor2 ^ a[i];      // XOR of array elements in the range [1, N-1]
             xor1 = xor1 ^ (i + 1);   // XOR of numbers from 1 to N-1
         }
 
